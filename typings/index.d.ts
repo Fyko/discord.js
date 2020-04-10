@@ -1148,6 +1148,7 @@ declare module 'discord.js' {
 		public readonly member: GuildMember | null;
 		public status: PresenceStatus;
 		public readonly user: User | null;
+		public readonly userID: Snowflake;
 		public equals(presence: Presence): boolean;
 	}
 
